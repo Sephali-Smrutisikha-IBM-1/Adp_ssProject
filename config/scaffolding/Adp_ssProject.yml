@@ -7,3 +7,62 @@ packages:
   gitUrl: https://github.com/Sephali-Smrutisikha-IBM-1
   gitUsername: Sephali-Smrutisikha-IBM-1
   gitBranch: main
+- name: WmJDBCAdapter
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: licensed
+services:
+- serviceName: project.adp_ss.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_ee
+  packages:
+  - name: Adp_ssProject
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+configurationVariables:
+  ? artConnection.Adp_ssProject.project.adp_ss.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ee.connectionManagerSettings.blockingTimeout
+  : "1000"
+  ? artConnection.Adp_ssProject.project.adp_ss.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ee.connectionSettings.keyStore
+  : ""
+  ? artConnection.Adp_ssProject.project.adp_ss.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ee.connectionSettings.password
+  : "{AES}gOk3wygfWVjWqDc4SLehnQ=="
+  ? artConnection.Adp_ssProject.project.adp_ss.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ee.connectionSettings.datasourceClass
+  : com.wm.dd.jdbcx.oracle.OracleDataSource
+  ? artConnection.Adp_ssProject.project.adp_ss.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ee.connectionSettings.transactionType
+  : LOCAL_TRANSACTION
+  ? artConnection.Adp_ssProject.project.adp_ss.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ee.connectionSettings.networkProtocol
+  : ""
+  ? artConnection.Adp_ssProject.project.adp_ss.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ee.connectionSettings.dbType
+  : ORACLE
+  ? artConnection.Adp_ssProject.project.adp_ss.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ee.connectionSettings.serverName
+  : adapter-oracle-121-on-amazonrds.cdmjexwbzoym.us-east-1.rds.amazonaws.com
+  ? artConnection.Adp_ssProject.project.adp_ss.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ee.connectionSettings.user
+  : JDBC_BVT
+  ? artConnection.Adp_ssProject.project.adp_ss.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ee.connectionEnabled
+  : "false"
+  ? artConnection.Adp_ssProject.project.adp_ss.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ee.connectionManagerSettings.poolIncrementSize
+  : "1"
+  ? artConnection.Adp_ssProject.project.adp_ss.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ee.connectionManagerSettings.startupRetryCount
+  : "0"
+  ? artConnection.Adp_ssProject.project.adp_ss.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ee.connectionManagerSettings.expireTimeout
+  : "1000"
+  ? artConnection.Adp_ssProject.project.adp_ss.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ee.connectionSettings.trustStore
+  : ""
+  ? artConnection.Adp_ssProject.project.adp_ss.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ee.connectionSettings.databaseName
+  : ORCL
+  ? artConnection.Adp_ssProject.project.adp_ss.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ee.connectionManagerSettings.poolable
+  : "false"
+  ? artConnection.Adp_ssProject.project.adp_ss.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ee.connectionManagerSettings.minimumPoolSize
+  : "1"
+  ? artConnection.Adp_ssProject.project.adp_ss.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ee.connectionManagerSettings.maximumPoolSize
+  : "10"
+  ? artConnection.Adp_ssProject.project.adp_ss.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ee.connectionSettings.portNumber
+  : "1521"
+  ? artConnection.Adp_ssProject.project.adp_ss.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ee.connectionSettings.otherProperties
+  : ""
+  ? artConnection.Adp_ssProject.project.adp_ss.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ee.connectionManagerSettings.heartBeatInterval
+  : "0"
+  ? artConnection.Adp_ssProject.project.adp_ss.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ee.connectionSettings.driverType
+  : Progress® DataDirect®
+  ? artConnection.Adp_ssProject.project.adp_ss.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_ee.connectionManagerSettings.startupBackoffSecs
+  : "10"
